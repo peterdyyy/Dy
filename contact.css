@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+.map {
+    flex: 1;
+    padding: 20px;
+}
+
+.form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1aac7b; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #25c28e; /* Lighter green color on hover */
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+
+.iframe {
+    width: 1300px
+}
+
+@media only screen and (max-width: 600px) {
+    .iframe {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    iframe {
+        display: none;
+    }
+
+}

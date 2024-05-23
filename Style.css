@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefe;
+}
+
+header {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  }
+
+  /* Hover effect */
+  .cta-btn:hover {
+    background-color: white; /* White background on hover */
+    color: black;}
+
+    iframe {
+        border: none; /* This removes the border */
+    }
+
+
+    .banner {
+        padding: 60px;
+        text-align: center;
+    }
+    
+    .banner img {
+        max-width: 600px;
+    }
+    
+    .banner h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+        color: #333;
+        margin-top: 20px;
+    }
+    
+    .banner h3 {
+        font-size: 24px;
+        color: #555;
+        margin-top: 10px;
+    }
+    
+    .banner p {
+        font-size: 18px;
+        color: #777;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .banner .cta-btn {
+        display: inline-block;
+        background-color: #1aac7b;
+        color: #fff;
+        font-size: 20px;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 30px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .banner .cta-btn:hover {
+        background-color: #72e6bf;
+    }
+    
+
+    .social-icons {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .social-icons li:last-child {
+        margin-right: 0;
+    }
+    
+    .social-icons a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 36px;
+        color: #1aac7b; /* Set link color to red */
+        background-color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }

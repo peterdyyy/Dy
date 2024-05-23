@@ -1,0 +1,67 @@
+section {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(29, 29, 29);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for card effect */
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product label, .product input {
+    color: rgb(22, 22, 22);
+}
+
+aside {
+    width: 300px;
+    padding: 20px;
+    
+}
+
+aside h2 {
+    color: #1aac7b; /* Green color */
+}
+
+#cart {
+    list-style: none;
+    padding: 0;
+}
+
+#cart li {
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 6px;
+    background-color: #1aac7b; /* Green color */
+    color: rgb(26, 26, 26);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #25c28e; /* Lighter green color on hover */
+}
